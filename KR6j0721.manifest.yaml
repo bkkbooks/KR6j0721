@@ -1,0 +1,83 @@
+canonical_identifier: bkk:krp/KR6j0721/v1
+canonical_location: https://kanripo.org/bkk/KR6j0721/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 楞嚴經序指味疏
+  identifiers:
+    alt_id:
+    - X16n0313
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X16/X16n0313.xml
+    old_id: X16n0313
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0721_000.yaml, hash: 'sha256:4d0ff3ad073dd23ff58c7a42d565774095f81a17ffe4187591e04de3bec52845'}
+  - {seq: 1, filename: KR6j0721_001.yaml, hash: 'sha256:9f29bc5c365a2606c9915fd42d3b94a0b8f5cad75a20bcecbda553636a093960'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0721_000.markers.yaml, hash: 'sha256:154fdbc34785c7debc71bd038fbbe16cd67448bff67a552199b4e781b30fbedc'}
+  - {seq: 1, role: markers, filename: assets/KR6j0721_001.markers.yaml, hash: 'sha256:4fca642a344c3a4b1698ca04f369f9d013b1506bc7505a755ea0e0fb9fc6ed31'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6j0721_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 313-A 指味疏略科提綱
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6j0721_X_000-mulu-2
+    span:
+    - front
+    - 399
+    - 399
+  label: No. 313-B 大佛頂經序指味疏緣起
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6j0721_X_000-mulu-3
+    span:
+    - front
+    - 817
+    - 817
+  label: 楞嚴經序指味疏
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0721_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 17969
+  label: 大佛頂經序指味疏
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0721_X_001-mulu-1
+    span:
+    - body
+    - 17633
+    - 17633
+  label: No. 313-C
+  type: mulu
+  level: 1
+hash: sha256:1b02e607a126ca0a98de22d43fd7c865bf042fed1f5b325d11ee7e4f38105758
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
